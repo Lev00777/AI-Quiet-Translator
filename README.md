@@ -1,7 +1,8 @@
 # AI-Quiet-Translator
 Real-time AI voice translator for high-noise industrial environments. Powered by Flutter, AWS Serverless, and WebSockets.
 
-Privacy Policy for Quiet Translator
+# Privacy Policy for Quiet Translator
+
 Last Updated: April 2026
 
 Welcome to Quiet Translator. We take your privacy and data security seriously, especially in high-noise industrial and cosmic environments.
