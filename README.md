@@ -46,5 +46,5 @@ Nothing is saved. Everything is live.
 
 ## Contact
 
-Privacy inquiries: privacy@[yourdomain.com]
-Legal inquiries: legal@[yourdomain.com]
+Privacy inquiries: mission@neuroorbitai.com
+Legal inquiries: mission@neuroorbitai.com
