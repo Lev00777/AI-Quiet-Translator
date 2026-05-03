@@ -78,8 +78,7 @@ AND NON-INFRINGEMENT.
 
 ## 8. Governing Law and Dispute Resolution
 
-These Terms are governed by the laws of [YOUR STATE, e.g., the State of
-Delaware, USA], without regard to conflict-of-law principles.
+These Terms are governed by the laws of the Province of Quebec, Canada, without regard to conflict-of-law principles.
 
 Any dispute arising out of or relating to these Terms shall be resolved by
 binding individual arbitration administered by the American Arbitration
@@ -105,5 +104,5 @@ you and the Developer with respect to Quiet Translator.
 
 ## 10. Contact
 
-Legal inquiries: legal@[yourdomain.com]
-Privacy inquiries: privacy@[yourdomain.com]
+Legal inquiries: mission@neuroorbitai.com
+Privacy inquiries: mission@neuroorbitai.com
