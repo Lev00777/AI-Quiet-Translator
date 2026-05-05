@@ -7,7 +7,7 @@
 
 ## Data Controller
 
-Replace: Oleksandr Klymenko with: NeuroOrbit
+Replace: NeuroOrbit
 Contact: mission@neuroorbitai.com
 
 
@@ -130,7 +130,7 @@ Depending on your jurisdiction, you have the right to:
 information we collect, the right to delete it, and the right to opt out of the
 "sale" of personal information. We do not sell personal information.
 
-Submit requests to: privacy@[yourdomain.com]
+Submit requests to: mission@neuroorbitai.com
 We respond within 30 days (45 days for CCPA requests).
 
 You may also file a complaint with your local supervisory authority —
