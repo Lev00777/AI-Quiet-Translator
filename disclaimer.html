@@ -32,7 +32,7 @@
   .wrap { position: relative; z-index: 2; max-width: 860px; margin: 0 auto; padding: 120px 32px 80px; }
   .doc-header { margin-bottom: 60px; }
   .doc-badge { font-family: 'Share Tech Mono', monospace; font-size: 10px; letter-spacing: 3px; color: var(--cyan); border: 0.5px solid rgba(0,229,255,.3); padding: 5px 14px; border-radius: 2px; background: var(--cyan-dim); display: inline-block; margin-bottom: 24px; }
-  .doc-title { font-family: 'Orbitron', monospace; font-size: clamp(28px, 5vw, 48px); font-weight: 900; color: #fff; text-shadow: 0 0 30px var(--cyan-glow); margin-bottom: 12px; line-height: 1.1; }
+  .doc-title { font-family: 'Orbitron', monospace; font-size: clamp(24px, 4.5vw, 44px); font-weight: 900; color: #fff; text-shadow: 0 0 30px var(--cyan-glow); margin-bottom: 12px; line-height: 1.1; }
   .doc-title span { color: var(--cyan); }
   .doc-meta { font-family: 'Share Tech Mono', monospace; font-size: 11px; color: var(--text-dim); letter-spacing: 1px; }
   .doc-meta span { color: var(--cyan); margin: 0 8px; }
@@ -43,7 +43,7 @@
   p { color: var(--text-dim); margin-bottom: 14px; font-size: 15px; }
   p strong { color: var(--text); font-weight: 600; }
   ul { margin: 0 0 14px 0; padding: 0; list-style: none; }
-  ul li { color: var(--text-dim); font-size: 15px; padding: 6px 0 6px 20px; position: relative; border-bottom: 0.5px solid rgba(0,229,255,.05); }
+  ul li { color: var(--text-dim); font-size: 15px; padding: 8px 0 8px 20px; position: relative; border-bottom: 0.5px solid rgba(0,229,255,.05); }
   ul li::before { content: '→'; position: absolute; left: 0; color: var(--cyan); font-family: 'Share Tech Mono', monospace; font-size: 11px; }
   ul li strong { color: var(--text); }
   .highlight-box { background: rgba(0,229,255,.04); border: 0.5px solid rgba(0,229,255,.2); border-left: 2px solid var(--cyan); border-radius: 0 4px 4px 0; padding: 16px 20px; margin: 20px 0; }
@@ -52,16 +52,6 @@
   .warning-box p { margin: 0; font-size: 15px; color: rgba(255,120,140,.95); }
   .alert-box { background: rgba(255,200,0,.04); border: 0.5px solid rgba(255,200,0,.2); border-left: 2px solid #ffcc00; border-radius: 0 4px 4px 0; padding: 16px 20px; margin: 20px 0; }
   .alert-box p { margin: 0; font-size: 14px; color: rgba(255,200,0,.85); }
-  .jurisdiction-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
-  @media (max-width: 600px) { .jurisdiction-grid { grid-template-columns: 1fr; } }
-  .jurisdiction-item { padding: 12px 16px; background: rgba(0,229,255,.03); border: 0.5px solid var(--border); border-radius: 4px; }
-  .jurisdiction-name { font-family: 'Share Tech Mono', monospace; font-size: 10px; color: var(--cyan); letter-spacing: 1px; display: block; margin-bottom: 4px; }
-  .jurisdiction-law { font-size: 13px; color: var(--text-dim); }
-  .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
-  @media (max-width: 600px) { .contact-grid { grid-template-columns: 1fr; } }
-  .contact-item { padding: 16px; background: var(--cyan-dim); border: 0.5px solid var(--border); border-radius: 4px; }
-  .contact-label { font-family: 'Share Tech Mono', monospace; font-size: 9px; letter-spacing: 2px; color: var(--cyan); text-transform: uppercase; display: block; margin-bottom: 6px; }
-  .contact-value { font-size: 14px; color: var(--text); }
   footer { position: relative; z-index: 2; border-top: 0.5px solid var(--border); padding: 32px; text-align: center; margin-top: 40px; }
   .footer-logo { font-family: 'Orbitron', monospace; font-size: 10px; letter-spacing: 3px; color: var(--cyan); margin-bottom: 16px; }
   .footer-links { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
@@ -75,84 +65,64 @@
 <canvas id="starfield"></canvas>
 
 <nav>
-  <a href="index.html" class="nav-logo">⟨ Quiet Translator ⟩</a>
+  <a href="index.html" class="nav-logo">&#10216; Quiet Translator &#10217;</a>
   <div class="nav-links">
     <a href="privacy.html">Privacy</a>
     <a href="terms.html">Terms</a>
     <a href="disclaimer.html" class="active">Disclaimer</a>
-    <a href="index.html" class="nav-back">← Back to App</a>
+    <a href="index.html" class="nav-back">Back to App</a>
   </div>
 </nav>
 
 <div class="wrap">
   <div class="doc-header">
     <div class="doc-badge">Legal Document</div>
-    <h1 class="doc-title">Legal <span>Disclaimer</span></h1>
+    <h1 class="doc-title">Legal Disclaimer <span>&amp; Liability Waiver</span></h1>
     <p class="doc-meta">
-      Effective <span>//</span> January 1, 2025
+      Effective <span>//</span> May 2, 2026
       <span>//</span> Last Updated: May 2, 2026
-      <span>//</span> Liability Waiver
     </p>
   </div>
 
   <div class="warning-box">
-    <p>This section contains important legal limitations. Read carefully before using the application. By using Quiet Translator, you acknowledge and accept all conditions stated below.</p>
+    <p>By using Quiet Translator you acknowledge and accept all conditions stated in this document. Read carefully before use.</p>
   </div>
 
   <div class="cyber-line"></div>
 
+  <!-- 1 -->
   <div class="doc-section">
     <span class="section-tag">// 01</span>
     <h2>Translation Accuracy</h2>
     <p>This application provides AI-powered real-time translation <strong>"as is"</strong> and without any warranties — express or implied — regarding absolute accuracy, reliability, completeness, or contextual appropriateness.</p>
-    <p>NeuroOrbit AI expressly disclaims all liability for misunderstandings, workplace conflicts, business losses, financial harm, reputational damage, or any other consequences arising directly or indirectly from translation errors or omissions.</p>
+    <p>The Developer expressly disclaims all liability for misunderstandings, workplace conflicts, business losses, financial harm, reputational damage, or any other consequences arising directly or indirectly from translation errors or omissions.</p>
     <div class="alert-box">
       <p>Do not rely on this application for medical, legal, safety-critical, or emergency communications.</p>
     </div>
   </div>
 
+  <!-- 2 -->
   <div class="doc-section">
     <span class="section-tag">// 02</span>
-    <h2>Recording & Privacy Laws</h2>
-    <p><strong>THE USER IS SOLELY RESPONSIBLE</strong> for complying with all applicable local, state/provincial, and federal laws regarding privacy, wiretapping, eavesdropping, and audio recording in every jurisdiction where this application is used.</p>
-    <p>Before using this application in the presence of other people, the User must obtain all legally required consents from every individual whose voice will be processed.</p>
-    <p>Applicable laws include, without limitation:</p>
-    <div class="jurisdiction-grid">
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">United States</span>
-        <span class="jurisdiction-law">Federal ECPA (18 U.S.C. § 2511) and applicable state statutes. One-party or all-party consent varies by state.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">Canada</span>
-        <span class="jurisdiction-law">PIPEDA and provincial statutes including Ontario PHIPA and Quebec Law 25.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">European Union / EEA</span>
-        <span class="jurisdiction-law">GDPR Articles 5 and 9; ePrivacy Directive 2002/58/EC.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">Brazil</span>
-        <span class="jurisdiction-law">LGPD (Lei 13.709/2018), Article 7.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">Japan</span>
-        <span class="jurisdiction-law">Act on the Protection of Personal Information (APPI), 2022 revision.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">China</span>
-        <span class="jurisdiction-law">Personal Information Protection Law (PIPL) and Cybersecurity Law.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">Australia</span>
-        <span class="jurisdiction-law">Privacy Act 1988 (Cth); Telecommunications (Interception and Access) Act 1979.</span>
-      </div>
-      <div class="jurisdiction-item">
-        <span class="jurisdiction-name">South Korea</span>
-        <span class="jurisdiction-law">Personal Information Protection Act (PIPA).</span>
-      </div>
+    <h2>Recording and Wiretapping Laws — Your Responsibility</h2>
+    <div class="warning-box">
+      <p><strong>THE USER IS SOLELY RESPONSIBLE</strong> for complying with all applicable local, state/provincial, and federal laws regarding privacy, wiretapping, eavesdropping, and audio recording in every jurisdiction where this application is used.</p>
     </div>
+    <p>This includes, without limitation:</p>
+    <ul>
+      <li><strong>United States:</strong> Federal Wiretap Act — ECPA, 18 U.S.C. § 2511, and all applicable state statutes. Consent requirements vary by state — some require one-party consent, others require all-party consent.</li>
+      <li><strong>Canada:</strong> PIPEDA and applicable provincial statutes including Ontario PHIPA and Quebec Law 25.</li>
+      <li><strong>European Union / EEA:</strong> GDPR Articles 5 and 9; ePrivacy Directive 2002/58/EC.</li>
+      <li><strong>Brazil:</strong> LGPD (Lei 13.709/2018), Article 7.</li>
+      <li><strong>Japan:</strong> Act on the Protection of Personal Information (APPI), 2022 revision.</li>
+      <li><strong>China:</strong> Personal Information Protection Law (PIPL) and Cybersecurity Law.</li>
+      <li><strong>Australia:</strong> Privacy Act 1988 (Cth); Telecommunications (Interception and Access) Act 1979.</li>
+      <li><strong>South Korea:</strong> Personal Information Protection Act (PIPA).</li>
+    </ul>
+    <p>Before using this application in the presence of other people, the User must obtain all legally required consents from every individual whose voice will be processed.</p>
   </div>
 
+  <!-- 3 -->
   <div class="doc-section">
     <span class="section-tag">// 03</span>
     <h2>Prohibited Uses</h2>
@@ -164,71 +134,50 @@
       <li>Any form of harassment, stalking, or unlawful monitoring</li>
       <li>Any other unlawful purpose</li>
     </ul>
-    <div class="warning-box">
+    <div class="highlight-box">
       <p>By using this application, you accept full legal responsibility for how, where, and in what circumstances you use it.</p>
     </div>
   </div>
 
+  <!-- 4 -->
   <div class="doc-section">
     <span class="section-tag">// 04</span>
     <h2>Limitation of Liability</h2>
-    <p>To the maximum extent permitted by applicable law, NeuroOrbit AI's total cumulative liability to the User shall not exceed the greater of:</p>
-    <ul>
-      <li>The total amount paid by the User in the <strong>twelve (12) months</strong> preceding the claim</li>
-      <li>One hundred US dollars <strong>(USD $100)</strong></li>
-    </ul>
-    <p>In no event shall NeuroOrbit AI be liable for any indirect, incidental, special, consequential, or punitive damages.</p>
-    <div class="highlight-box">
-      <p>Some jurisdictions do not allow exclusion or limitation of certain warranties or liability. In those jurisdictions, the above limitations apply to the fullest extent permitted by law.</p>
-    </div>
+    <p>To the maximum extent permitted by applicable law, the Developer's total cumulative liability to the User shall not exceed the greater of: (a) the total amount paid by the User in the twelve (12) months preceding the claim, or (b) one hundred US dollars (USD $100).</p>
+    <p>In no event shall the Developer be liable for any indirect, incidental, special, consequential, or punitive damages.</p>
   </div>
 
+  <!-- 5 -->
   <div class="doc-section">
     <span class="section-tag">// 05</span>
     <h2>Age Requirements</h2>
     <p>This application is NOT intended for:</p>
     <ul>
-      <li>Children under <strong>13 years of age</strong> — United States (COPPA)</li>
-      <li>Children under <strong>16 years of age</strong> — European Union (GDPR, Article 8)</li>
+      <li>Children under <strong>13 years of age</strong> (United States — COPPA)</li>
+      <li>Children under <strong>16 years of age</strong> (European Union — GDPR, Article 8)</li>
       <li>Any person below the digital age of consent in their jurisdiction</li>
     </ul>
-    <p>By using this application, you confirm that you meet all applicable age requirements in your jurisdiction.</p>
+    <p>By using this application, you confirm that you meet all applicable age requirements.</p>
   </div>
 
+  <!-- 6 -->
   <div class="doc-section">
     <span class="section-tag">// 06</span>
     <h2>Governing Law</h2>
-    <p>This Disclaimer is governed by the laws of the <strong>Province of Quebec, Canada</strong>.</p>
-    <p>Users in the EU/EEA retain the right to bring claims before the courts of their Member State of habitual residence pursuant to Regulation (EU) No 1215/2012 (Brussels I Recast).</p>
+    <p>This Disclaimer is governed by the laws of the <strong>Province of Quebec, Canada</strong>. Users in the EU/EEA retain the right to bring claims before the courts of their Member State of habitual residence pursuant to Regulation (EU) No 1215/2012.</p>
   </div>
 
-  <div class="cyber-line"></div>
-
-  <div class="doc-section">
-    <span class="section-tag">// Contact</span>
-    <h2>Questions</h2>
-    <div class="contact-grid">
-      <div class="contact-item">
-        <span class="contact-label">Legal Inquiries</span>
-        <span class="contact-value">mission@neuroorbitai.com</span>
-      </div>
-      <div class="contact-item">
-        <span class="contact-label">Developer</span>
-        <span class="contact-value">NeuroOrbit AI — Montreal, Canada</span>
-      </div>
-    </div>
-  </div>
 </div>
 
 <footer>
-  <div class="footer-logo">⟨ NeuroOrbit AI ⟩</div>
+  <div class="footer-logo">&#10216; NeuroOrbit AI &#10217;</div>
   <div class="footer-links">
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms of Use</a>
     <a href="disclaimer.html">Disclaimer</a>
     <a href="index.html">Back to App</a>
   </div>
-  <div class="footer-copy">© 2026 NeuroOrbit AI · Montreal, Canada · All rights reserved</div>
+  <div class="footer-copy">2026 NeuroOrbit AI · Montreal, Canada · All rights reserved</div>
 </footer>
 
 <script>
