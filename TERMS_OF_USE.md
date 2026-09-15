@@ -1,108 +1,131 @@
 # Terms of Use (EULA) — Quiet Translator
-
-**Last Updated: May 2, 2026**
-**Effective Date:  May 2, 2026**
-
+ 
+**Last Updated: July 19, 2026**
+**Effective Date: July 19, 2026**
+ 
 ---
-
+ 
 ## 1. License Grant
-
+ 
 The Developer grants you a limited, revocable, non-exclusive, non-transferable,
 non-sublicensable license to install and use Quiet Translator solely for your
 personal or internal business purposes, subject to these Terms of Use.
-
+ 
 ---
-
-## 2. Prohibited Activities
-
+ 
+## 2. Subscriptions, Auto-Renewal, and Payment
+ 
+Quiet Translator offers auto-renewable subscriptions. The following terms apply:
+ 
+- **Plans and pricing.** Subscription options and their prices, billing period,
+  and included monthly listening allowance are shown in the app before purchase.
+  Prices are displayed in your local currency by the App Store.
+- **Free trial allowance.** New accounts may receive a one-time free listening
+  allowance. This allowance is granted once per account and does not renew.
+- **Billing.** Payment is charged to your Apple ID account at confirmation of purchase.
+- **Auto-renewal.** Your subscription automatically renews for the same period unless
+  you turn off auto-renewal at least 24 hours before the end of the current period.
+  Your Apple ID account is charged for renewal within 24 hours prior to the end of
+  the current period.
+- **Managing and canceling.** You can manage or cancel your subscription in your
+  Apple ID account settings (Settings → your name → Subscriptions). Canceling stops
+  future renewals; you retain access until the end of the current paid period.
+- **Fair-use limits.** Each plan includes a monthly listening allowance measured in
+  minutes. When the allowance is used up, listening is paused until the next billing
+  period or until you upgrade.
+- **Refunds.** Purchases are handled by Apple. Refund requests are subject to Apple's
+  policies and are managed through Apple.
+---
+ 
+## 3. Prohibited Activities
+ 
 You may NOT:
-
+ 
 - (a) Reverse-engineer, decompile, or disassemble the application
 - (b) Attempt to extract API keys, authentication tokens, or proprietary credentials
 - (c) Use bots or automated scripts to generate fraudulent translation requests
 - (d) Resell, sublicense, or share your account access with any third party
-- (e) Circumvent or disable any technical protection or security measure
-- (f) Use the application in violation of any applicable law
-
-Accounts found in violation will be immediately suspended or permanently
-banned without refund.
-
+- (e) Circumvent or disable any technical protection, usage limit, or security measure
+- (f) Use the application in violation of any applicable law, including laws
+  governing the recording or processing of other people's speech
+Accounts found in violation may be suspended or permanently banned.
+ 
 ---
-
-## 3. Intellectual Property
-
+ 
+## 4. Intellectual Property
+ 
 All rights, title, and interest in the application — including its user interface,
 design, source code, algorithms, branding, and trademarks — remain exclusively
 with the Developer. These Terms do not grant you any ownership rights.
-
+ 
 ---
-
-## 4. Service Changes and API Limits
-
-The Developer reserves the right to modify API usage limits, features, pricing,
-or these Terms with at least 14 days' advance notice by email or in-app notification.
-
-The Developer may temporarily suspend services for maintenance without prior notice
-and will restore service as promptly as reasonably practicable.
-
+ 
+## 5. Service Changes and Limits
+ 
+The Developer reserves the right to modify features, usage limits, pricing, or these
+Terms with at least 14 days' advance notice by email or in-app notification. Price
+changes to existing subscriptions will be handled in accordance with App Store rules,
+which may require your consent. The Developer may temporarily suspend services for
+maintenance and will restore service as promptly as reasonably practicable.
+ 
 ---
-
-## 5. Account Termination
-
-The Developer may suspend or terminate your access immediately upon material breach
-of these Terms. You may delete your account at any time through the Settings screen.
-Deletion is processed within 30 days and results in permanent removal of your
-account data.
-
+ 
+## 6. Account Termination
+ 
+The Developer may suspend or terminate your access upon material breach of these Terms.
+You may delete your account at any time through the Settings screen. Deletion results
+in permanent removal of your account and associated usage data. Subscription
+cancellation is managed through your Apple account settings.
+ 
 ---
-
-## 6. Indemnification
-
-You agree to indemnify, defend, and hold harmless the Developer and its officers,
-employees, contractors, and agents from any claims, damages, losses, liabilities,
-and expenses (including reasonable attorneys' fees) arising from:
-(a) your use of the application in violation of these Terms,
-(b) your violation of any applicable law or regulation, or
-(c) your infringement of any third-party rights.
-
----
-
+ 
 ## 7. Disclaimer of Warranties
-
-THE APPLICATION IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES
-OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED
-WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-AND NON-INFRINGEMENT.
-
+ 
+THE APPLICATION IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND,
+EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. Translations
+are generated by automated systems and may contain errors; do not rely on them for
+critical, legal, medical, or safety-related decisions without independent verification.
+ 
 ---
-
-## 8. Governing Law and Dispute Resolution
-
-These Terms are governed by the laws of the Province of Quebec, Canada, without regard to conflict-of-law principles.
-
-Any dispute arising out of or relating to these Terms shall be resolved by
-binding individual arbitration administered by the American Arbitration
-Association (AAA) under its Consumer Arbitration Rules, except that either
-party may seek injunctive relief in a court of competent jurisdiction.
-
-**CLASS ACTION WAIVER:** You waive any right to participate in a class action
-lawsuit or class-wide arbitration to the fullest extent permitted by applicable law.
-
-Users in the EU/EEA retain the right to bring claims before the courts of their
-Member State of habitual residence pursuant to Regulation (EU) No 1215/2012.
-
+ 
+## 8. Limitation of Liability
+ 
+To the fullest extent permitted by law, the Developer shall not be liable for any
+indirect, incidental, special, consequential, or punitive damages arising from your
+use of, or inability to use, the application.
+ 
 ---
-
-## 9. Severability and Entire Agreement
-
+ 
+## 9. Indemnification
+ 
+You agree to indemnify, defend, and hold harmless the Developer from any claims,
+damages, losses, liabilities, and expenses (including reasonable attorneys' fees)
+arising from: (a) your use of the application in violation of these Terms,
+(b) your violation of any applicable law, or (c) your infringement of any
+third-party rights.
+ 
+---
+ 
+## 10. Governing Law and Dispute Resolution
+ 
+These Terms are governed by the laws of the Province of Quebec, Canada, without regard
+to conflict-of-law principles. Users in the EU/EEA retain the right to bring claims
+before the courts of their Member State of habitual residence pursuant to Regulation
+(EU) No 1215/2012. Nothing in these Terms limits mandatory consumer-protection rights
+available to you in your country of residence.
+ 
+---
+ 
+## 11. Severability and Entire Agreement
+ 
 If any provision of these Terms is found invalid or unenforceable, the remaining
-provisions continue in full force. These Terms of Use, together with the
-Privacy Policy and Legal Disclaimer, constitute the entire agreement between
-you and the Developer with respect to Quiet Translator.
-
+provisions continue in full force. These Terms of Use, together with the Privacy
+Policy, constitute the entire agreement between you and the Developer with respect
+to Quiet Translator.
+ 
 ---
-
-## 10. Contact
-
-Legal inquiries: mission@neuroorbitai.com
-Privacy inquiries: mission@neuroorbitai.com
+ 
+## 12. Contact
+ 
+Legal and privacy inquiries: mission@neuroorbitai.com
